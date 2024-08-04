@@ -13,6 +13,7 @@ body {
 div.banner-image {
   width: 540px;
   height: 1000px;
+  flex-shrink: 0;
   background: url("images/pink-flowers.jpeg");
   background-position: center;
   background-repeat: no-repeat;
@@ -27,7 +28,7 @@ div.banner-title {
   padding: 6px 0;
   background-color: rgba(0, 0, 0, 0.45);
   color: rgb(255, 255, 255, 0.95);
-  font-size: 3rem;
+  font-size: 2.5rem;
   height: auto;
 
   display: flex;
@@ -36,8 +37,8 @@ div.banner-title {
 }
 
 img.plum-blossom {
-  width: 7rem;
-  height: 7rem;
+  width: 6rem;
+  height: 6rem;
   margin-right: 4px;
   opacity: 0.95;
 }
@@ -47,4 +48,24 @@ img.plum-blossom {
   color: rgb(255, 255, 255, 0.8);
   text-align: center;
   margin-bottom: 8px;
+}
+
+.content {
+  --content-margin-left: 34px;
+  --content-width: 700px;
+  background-color: #f6f7f8;
+  flex: 1;
+}
+
+div.sign-up-hook {
+  width: var(--content-width);
+  margin-top: 160px;
+  margin-left: var(--content-margin-left);
+  font-size: 1.9rem;
+  font-weight: 550;
+  line-height: 1.1;
+}
+
+em {
+  font-size: inherit;
 }
