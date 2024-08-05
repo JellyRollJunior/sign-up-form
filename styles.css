@@ -76,6 +76,7 @@ em {
 .form-container {
   background-color: white;
   padding: 20px 0 40px var(--content-margin-left);
+  box-shadow: 0 8px 8px -5px #a2a4a9;
 }
 
 .form-title {
