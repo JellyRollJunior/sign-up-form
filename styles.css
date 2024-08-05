@@ -124,7 +124,12 @@ input + span::before {
 .form-item > input[type="password"]:invalid + span::before {
   content: "* Passwords do not match";
   color: red;
-  font-size: .9rem;
+  font-size: 0.9rem;
+}
+
+.form-item > input:focus {
+  border: 1px solid blue;
+  box-shadow: 3px 3px 8px -2px #a2a4a9;
 }
 
 button[type="submit"] {
@@ -133,6 +138,7 @@ button[type="submit"] {
   border-radius: 12px;
   border: 1px solid #6a9734;
   background-color: #6a9734;
+  box-shadow: 3px 3px 8px -2px #a2a4a9;
   color: white;
   font-size: 1.3rem;
   letter-spacing: 1px;
