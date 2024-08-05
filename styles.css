@@ -107,6 +107,25 @@ em {
   border: 1px solid #e5e7eb;
 }
 
+input + span {
+  position: relative;
+  display: block;
+}
+
+input + span::before {
+  position: absolute;
+}
+
+.form-item > input[type="password"]:invalid {
+  border: 1px solid red;
+}
+
+.form-item > input[type="password"]:invalid + span::before {
+  content: "* Passwords do not match";
+  color: red;
+  font-size: .9rem;
+}
+
 button[type="submit"] {
   margin: 40px var(--content-margin-left);
   padding: 12px 60px;
