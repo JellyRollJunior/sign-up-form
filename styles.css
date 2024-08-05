@@ -103,17 +103,30 @@ em {
   height: 36px;
   padding-left: 8px;
   border-radius: 4px;
-  border: 1px solid #E5E7EB;
+  border: 1px solid #e5e7eb;
 }
 
 button[type="submit"] {
-    margin: 40px var(--content-margin-left);
-    padding: 12px 60px;
-    border-radius: 12px;
-    border: 1px solid #6a9734;
-    background-color: #6a9734;
-    color: white;
-    font-size: 1.3rem;
-    letter-spacing: 1px;
-    font-weight: 550;
+  margin: 40px var(--content-margin-left);
+  padding: 12px 60px;
+  border-radius: 12px;
+  border: 1px solid #6a9734;
+  background-color: #6a9734;
+  color: white;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-weight: 550;
+}
+
+.login-query {
+  margin-left: var(--content-margin-left);
+  margin-bottom: 40px;
+  font-size: 1.3rem;
+}
+
+a {
+  color: #6a9734;
+  font-size: inherit;
+  font-weight: 600;
+  text-decoration: none;
 }
