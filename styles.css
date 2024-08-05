@@ -52,6 +52,7 @@ img.plum-blossom {
 
 .content {
   --content-margin-left: 34px;
+  --content-margin-top-bot: 16px;
   --content-width: 700px;
   background-color: #f6f7f8;
   flex: 1;
@@ -60,6 +61,7 @@ img.plum-blossom {
 div.sign-up-hook {
   width: var(--content-width);
   margin-top: 160px;
+  margin-bottom: 60px;
   margin-left: var(--content-margin-left);
   font-size: 1.9rem;
   font-weight: 550;
@@ -68,4 +70,14 @@ div.sign-up-hook {
 
 em {
   font-size: inherit;
+}
+
+.form-container {
+    background-color: white;
+    padding: 16px var(--content-margin-left);
+}
+
+.form-title {
+    font-size: 2rem;
+    font-weight: 550;
 }
