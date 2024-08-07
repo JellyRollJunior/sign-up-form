@@ -61,7 +61,7 @@ img.plum-blossom {
 
 div.sign-up-hook {
   width: var(--content-width);
-  margin-top: 160px;
+  margin-top: 60px;
   margin-bottom: 60px;
   margin-left: var(--content-margin-left);
   font-size: 1.9rem;
@@ -156,4 +156,19 @@ a {
   font-size: inherit;
   font-weight: 600;
   text-decoration: none;
+}
+
+@font-face {
+  font-family: "makeup_personal_useregular";
+  src: url("fonts/makeuppersonaluseregular-8vpz-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+div.signature {
+    margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  font-family: "makeup_personal_useregular";
+  font-size: 42px;
 }
